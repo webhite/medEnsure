@@ -1,0 +1,58 @@
+# Python bytecode
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3      # Local SQLite database
+db.sqlite3     # Another common SQLite name
+media/
+staticfiles/   # Collected static files (if using collectstatic)
+static/        # Optional: if you don’t want static dev files in git
+
+# Django migrations (optional)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# PyCharm / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment variables
+.env
+.env.*        # Optional: if you use multiple env files
+
+# Logs and reports
+*.log
+*.pot
+*.pyc
+*.pyo
+*.orig
+*.swp
+*.swo
+*.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+pip-log.txt
