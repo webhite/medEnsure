@@ -70,16 +70,17 @@ exit
 ```bash
 touch med_ensure/local_settings.py
 ```
-- enter the below settings in local_settings.py
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "<database-name>",
-        'HOST':"localhost",
-        'USER':"<username>",
-        'PASSWORD': "<password>"
+        'NAME': '<database-name>',
+        'HOST': 'localhost',
+        'USER': '<username>',
+        'PASSWORD': '<password>',
     }
 }
+```
 
 - migrate database
 ```bash
