@@ -1,4 +1,4 @@
-# Django Project
+# this Readme.md file is created for linux  and mac system, windows may need different setup do likewise
 
 A web application built with **Django 6.0.1** and **Python 3.13.3**.
 
@@ -19,7 +19,6 @@ Make sure you have the following installed:
 
 - Python **3.13.3**
 - pip (comes with Python)
-- python -m venv env
 
 Check versions:
 ```bash
@@ -27,6 +26,18 @@ python --version
 django-admin --version
 ```
 ## DataBase SetUp
+- set up virtual environment
+```bash
+python -m venv path/to/<env-name>
+```
+- activate this env
+```bash
+source path/to/<env-name>/bin/activate
+```
+- install requirements 
+```bash
+pip install -r requirements.txt
+```
 - install mysql-server
 ```bash
 sudo apt install mysql-server
@@ -70,3 +81,7 @@ DATABASES = {
     }
 }
 
+- migrate database
+```bash
+python manage.py migrate
+```
