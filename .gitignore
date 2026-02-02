@@ -56,3 +56,6 @@ htmlcov/
 dist/
 build/
 pip-log.txt
+
+local_settings.py
+*/local_settings.py
