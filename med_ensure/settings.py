@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'users',
     'django_extensions',
     'rest_framework',
-    'cors'
+    'cors',
+
+    'news'
 ]
 
 
